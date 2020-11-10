@@ -1,0 +1,47 @@
+.navbar {
+background-color: black;
+text-align: center;
+position: fixed;
+top: 0px;
+width: 100%;
+color: blanchedalmond;
+}
+
+ .navbar li {
+     display: inline-block;
+     padding: 15px;
+    list-style: none;
+    text-decoration:none;
+ }
+ body {
+     text-align: center;
+     color: oldlace;
+     font-family: 'Amatic SC', cursive;
+     font-size: 35px;
+     background-color: black;
+ }
+ .container{
+    text-align: center;
+    background-image: url("screen.jpg");
+ }
+.Contact{
+    text-align: center;
+}
+ .Contact li {
+     display: inline-block;
+     padding: 20px;
+     list-style: none;
+ }
+ .Interests li {
+     list-style: none;
+ }
+ .Hobbies li{
+     list-style: none;
+ }
+ img {
+    width: 200px;
+    
+ }
+ .underline{
+     text-decoration: underline;
+ }
