@@ -4,14 +4,13 @@ text-align: center;
 position: fixed;
 top: 0px;
 width: 100%;
-color: blanchedalmond;
+
 }
 
  .navbar li {
      display: inline-block;
      padding: 15px;
-    list-style: none;
-    text-decoration:none;
+    
  }
  body {
      text-align: center;
@@ -44,4 +43,8 @@ color: blanchedalmond;
  }
  .underline{
      text-decoration: underline;
+ }
+ a{
+     text-decoration:none;
+     color: white;
  }
