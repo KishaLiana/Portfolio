@@ -39,6 +39,8 @@ width: 100%;
  }
  img {
     width: 200px;
+    border-radius: 70%;
+
     
  }
  .underline{
