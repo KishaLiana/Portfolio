@@ -10,7 +10,7 @@
       src="https://kit.fontawesome.com/1de295ac45.js"
       crossorigin="anonymous"
     ></script>
-    <link href="style.css" rel="stylesheet" />
+    <link href="./style.css" rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap"
       rel="stylesheet"
@@ -121,5 +121,20 @@
         </ul>
       </div>
     </div>
+    <h1>Feedback</h1>
+    <form action = "./feedback.php" method = "POST">
+
+      Name 
+      <input type="text" name="name" />
+      <br>
+      Email
+      <input type="text" name="email" />
+    <br>
+    Message
+    <input type = "textarea" name= "message">
+    <br>
+    <input type="submit" name="save" value="INSERT"/> 
+    <input type="submit" name="show" value="DISPLAY"/>
+    </form>
   </body>
 </html>
